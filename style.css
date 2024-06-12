@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* font-family: "Lexend Deca", sans-serif;
+    font-family: "Big Shoulders Display", sans-serif; */
+    font-size: 15px;
+    max-width: 1440px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+}
+.container{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 730px;
+min-height: 100vh;
+}
+.content-1{
+    background-color:  hsl(31, 77%, 52%);
+padding: 30px;
+width: 245px;
+
+}
+.first-icon{
+    background-image: url("./images/icon-sedans.svg");
+    height: 30px;
+    width: 50px;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+h2{
+    font-family: "Big Shoulders Display", sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 25px;
+}
+.para-1{
+    font-family: "Lexend Deca", sans-serif;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 50px;
+    width: 180px;
+    font-weight: 400;
+}
+.para-2{
+    font-family: "Lexend Deca", sans-serif;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 50px;
+    width: 195px;
+    font-weight: 400;
+
+}
+.para-3{
+    font-family: "Lexend Deca", sans-serif;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 50px;
+    width: 200px;
+    font-weight: 400;
+
+}
+.btn-1{
+    border: none;
+    width: 120px;
+    height: 35px;
+    border-radius: 20px;
+    color:hsl(31, 77%, 52%) ;
+} 
+.btn-1:active{
+    border: 2px solid white;
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+}
+.btn-2:active{
+    border: 2px solid white;
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+}
+.btn-3:active{
+    border: 2px solid white;
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+}
+.content-2{
+    background-color: hsl(184, 100%, 22%);
+padding: 30px;
+width: 245px;
+
+}
+.second-icon{
+    background-image: url("./images/icon-suvs.svg");
+    height: 30px;
+    width: 50px;
+    background-size: cover;
+    margin-bottom: 20px;
+} 
+.btn-2{
+    border: none;
+    width: 120px;
+    height: 35px;
+    border-radius: 20px;
+    color:hsl(184, 100%, 22%);
+} 
+.content-3{
+    background-color:   hsl(179, 100%, 13%);
+padding: 30px;
+width: 245px;
+
+}
+.third-icon{
+    background-image: url("./images/icon-luxury.svg");
+    height: 30px;
+    width: 50px;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.btn-3{
+    border: none;
+    width: 120px;
+    height: 35px;
+    border-radius: 20px;
+    color: hsl(179, 100%, 13%);
+} 
+/* media query */
+@media (max-width: 375px){
+    body{
+        max-width: 375px;
+        margin: 0 auto;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
